@@ -5,7 +5,7 @@ import java.util.Scanner;
 // FileName: Main
 // Date: 2023/06/20
 // Email: emjeydev@gmail.com
-// Github: emjeydeva
+// Github: emjeydev
 
 public class Main {
     public static void main(String[] args) {
