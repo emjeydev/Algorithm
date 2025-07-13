@@ -1,6 +1,8 @@
 package Users;
+
 import JavaFood.AdminPanel;
 import Models.Order;
+
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
@@ -14,6 +16,6 @@ public class User {
     }
 
     public ArrayList<Order> getOrders() {
-        throw new UnsupportedOperationException("not implemented yet");
+        return AdminPanel.orders;
     }
 }
