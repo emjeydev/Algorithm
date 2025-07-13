@@ -2,6 +2,6 @@ package Exceptions;
 
 public class PayException extends RuntimeException {
     public PayException() {
-        throw new UnsupportedOperationException("not implemented yet");
+        System.out.println("Paying amount is not correct");
     }
 }
